@@ -1,0 +1,106 @@
+.background{
+    background-color: lavender;
+}
+.bg-lavanda{
+background-color: lavenderblush;
+text-decoration: none;
+    color: black;
+}
+.text-lavanda{
+  color: #ff5fc6;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
+.p1{
+    position: relative;
+    right: 18px;
+
+}
+.square1{
+    width: 1120px;
+    height: 250px;
+    background-color:lavenderblush;
+    color: black;
+    position: relative;
+    left: -5px;
+    border-radius: 30px;
+}
+p{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #16181b;
+}
+.p2{
+    position: relative;
+   top: -10px!important;
+}
+.bg{
+  background-color: #cce5ff;
+}
+.square2{
+    width: 500px;
+    height: 200px;
+    background-color: lavenderblush;
+    border-radius: 12px;
+
+}
+.square3{
+    width: 500px;
+    height: 200px;
+    background-color: lavenderblush;
+    border-radius: 12px;
+    position: relative;
+   left: 200px!important;
+
+}
+.p3{
+    position: relative;
+    left: 400px!important;
+}
+.p4{
+    position: relative;
+    top: 60px;
+    right: 120px;
+}
+.p5{
+    position: relative;
+    bottom: 20px;
+}
+.p6{
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+.word-waves span{
+
+    position: relative;
+    right: 160px;
+    color: transparent;
+    font-size: 4rem;
+    transform: translate(-50%,-50%);
+}
+.word-waves span:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 0.3px transparent;
+}
+.word-waves span:nth-child(2){
+    color: black;
+    animation:animation 3s ease-in-out infinite;
+}
+@keyframes animation{
+    0%,100%{
+        clip-path: polygon(0% 45%,19% 44%,32% 50%,54% 60%,70% 61%,84% 59%,100% 52%,100% 100%,0% 100%);
+    }
+    50%{
+        clip-path: polygon(0% 60%,19% 65%,34% 66%,51% 62%,67% 50%,84% 45%,100% 46%,100% 100%,0% 100%);
+    }
+
+}
+.p7{
+    position: relative;
+    left: 300px;
+}
